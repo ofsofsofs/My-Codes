@@ -15,6 +15,7 @@ personal_net_salary = 0
 
 # Here loop is starting to calculate datas after salary entered
 while salary > 0:
+    # total_tax += personal_tax makes more sense
     person += 1  # calculating people who entered salary
     total_salary += salary  # calculating total salary for outputs
     if 0 < salary <= 10000:  # checking if salary is between 0 and 10000
